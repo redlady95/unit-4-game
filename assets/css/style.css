@@ -1,0 +1,76 @@
+body {
+    background: url("../images/cave.jpg") no-repeat center center fixed;
+    background-size: cover;
+}
+
+h1 {
+    text-align: center;
+    height: 60px;
+    width: 100%;
+    font-size: large;
+    background-color: black;
+    color: #14D6FF;
+    margin-top: 0;
+    border-bottom: 10px solid yellow;
+}
+
+.nav {
+    margin-bottom: 50px;
+}
+
+h3 {
+    color: blue;
+    text-align: right;
+    font-size: medium;
+    color: #FF1439;
+}
+
+.btn {
+    padding: 0;
+}
+
+.btn img {
+    position: right;
+    float: right;
+    padding: 0;
+    height: 8rem;
+    width: 8rem;
+    border: solid blue 3px;
+    margin: 0;
+    padding: 0;
+    background: transparent;
+    clear: right;
+}
+
+#sidebar {
+    position: relative;
+    float: right;
+    clear: right;
+
+}
+
+#gems {
+    float: right;
+    position: relative;
+}
+
+#counters {
+    float: left;
+    position: relative;
+}
+
+footer {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 1rem;
+    text-align: center;
+    padding: 15px 0;
+    clear: both;
+    font-size: 12px;
+    background: black;
+    color: aqua;
+    border-top: 1px solid yellow;
+    margin-top: 50px;
+}
